@@ -17,3 +17,8 @@ git log --all --oneline //커밋 기록 확인을 위한 명령어
 
 git diff 커밋id //diff보다 보기 편하기 위한 명령어
 
+git branch // 현재 모든 브랜치들을 볼 수 있는 명령어
+
+git branch 브랜치이름 //브랜치 생성 명령어
+
+git checkout 브랜치이름 //브랜치 이동을 위한 명령어
