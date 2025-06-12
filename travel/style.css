@@ -1,0 +1,52 @@
+/* www 기본 설정 www*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* www 헤더 www*/
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: bold;
+}
+
+.nav li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+/* ===공통 클래스 */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
